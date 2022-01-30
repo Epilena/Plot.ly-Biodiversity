@@ -19,4 +19,5 @@ https://epilena.github.io/Plot.ly-Biodiversity/
 
 The final data visulization is visually appealing, with the EARTH color scheme applied to the bubble chart.  The bar chart is interactive and bacteria names are displayed when 'hover to discover'.  I had difficluty with the deisplay of the bar chart until the map method was applied in the coding, then y labels displayed appropriately.   
 
-"C:\Users\cblac\OneDrive\Documents\SMU Boot Camp\Plot.ly Biodiversity\Plot.ly-Biodiversity\Screenshot home page.png"
+![Screenshot home page](https://user-images.githubusercontent.com/88807979/151687869-8d8c6879-2fb6-4519-8c97-8c1811801e90.png)
+
