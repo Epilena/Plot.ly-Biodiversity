@@ -11,7 +11,7 @@ function getData(id){
     let labels = sampleData.samples.filter(sample=>sample.id==id)[0].otu_labels;
       console.log(labels)
   //slice to get top 10 OTUs to plot
-    let  OTUten = ids.slice(0,10).reverse();
+    let  OTUten = ids.slice(0,10).map(otu=>`OTU${otu}`).reverse();
     let labels_2 = labels.slice(0,10).reverse();
 
     let trace ={
@@ -42,7 +42,8 @@ function getData(id){
     mode: 'markers',
     marker: {
         size: values,
-        color: ids
+        color: ids,
+        colorscale:"Earth"
     }
   };
     //bubble layout
